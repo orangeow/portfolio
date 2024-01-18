@@ -1,0 +1,109 @@
+body{
+    background-color: #FFFFF2;
+}
+
+#navbar{
+    height:50px;
+    width:100vw;
+    border-bottom: 0.5px solid #5c5c5a;
+    display:flex;
+    position: fixed;
+    left:-1px;
+    background-color: #FFFFF2;
+    z-index: 1000;
+    top:0px;
+    padding-top:10px;
+}
+
+#pages{
+    display:flex;
+    position:absolute;
+    right:20px;
+}
+
+a{
+    color:black;
+    text-decoration: none;
+}
+
+#name-logo{
+    font-family: "azo-sans-web", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    padding:10px;
+    left: 20px;
+    position: absolute;
+}
+
+.link{
+    padding:10px;
+    font-family: "azo-sans-web", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.project{
+    border-bottom: 0.5px solid black;
+    height: 475px;
+    width: 100vw;
+    display:flex;
+    position:relative;
+    top:50px;
+    justify-content: end;
+    left:-2px;
+}
+
+.description{
+    font-family: "azo-sans-web", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    line-height:22px;
+
+    width: 447px;
+    height: 410px;
+    display:flex;
+    padding:40px;
+}
+
+.images{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content:center;
+    height: 475px;
+    width: calc(100vw - 447px);
+}
+
+.poster{
+    width: 250px;
+    padding:10px;
+    height: auto;
+}
+
+#book{
+    width:800px;
+    height:auto;
+    margin-bottom:20px;
+}
+
+
+.other-poster{
+    width:300px;
+    height:auto;
+    border:1px dashed #31312e9c;
+}
+
+.clock{
+    width:250px;
+    height:auto;
+    padding:0px;
+}
+
+.hover-link{
+    transition:300ms;
+}
+
+.hover-link:hover{
+    transform:translate(-10px, -10px);
+}
