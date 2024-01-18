@@ -114,6 +114,11 @@ a{
     padding-right:5px;
     border:5px solid #e1e1d6;
     border-radius:10px;
+    transition:300ms;
+}
+
+.project-links:hover{
+    transform:translate(-2px, -2px);
 }
 
 .project-images{
