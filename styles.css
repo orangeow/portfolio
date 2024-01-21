@@ -91,7 +91,7 @@ a{
 .other-poster{
     width:300px;
     height:auto;
-    border:1px dashed #31312e9c;
+    border:1px solid #31312e9c;
 }
 
 .clock{
@@ -106,4 +106,60 @@ a{
 
 .hover-link:hover{
     transform:translate(-10px, -10px);
+}
+
+@media (max-width: 425px){
+
+    .images{
+        width:100vw;
+        height:auto;
+        flex-wrap:wrap;
+        justify-content:space-evenly;
+        margin-top:15px;
+        align-items:center;
+        align-content:center;
+    }
+
+    .project{
+        flex-wrap:wrap;
+        height: fit-content;
+        align-items: center;
+        align-content:center;
+    }
+
+    #womens-work{
+        width:99vw;
+    }
+
+    .poster{
+        width:30vw;
+        margin:0px;
+        padding:0px;
+    }
+
+    .description{
+        height:fit-content;
+        padding:20px;
+        margin-bottom: 20px;
+    }
+
+    #nypl{
+        width:99vw;
+    }
+
+    .clock{
+        width:40vw;
+    }
+
+    #omnibus{
+        width:99vw;
+    }
+
+    #book{
+        width:99vw;
+    }
+
+    .other-poster{
+        width:48vw;
+    }
 }

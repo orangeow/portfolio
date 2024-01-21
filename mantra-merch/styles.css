@@ -78,7 +78,30 @@ a{
 #animations{
     width:96vw;
     display:flex;
+    flex-wrap:wrap;
     justify-content:space-between;
     margin-top:30px;
     margin-bottom:30px;
+}
+
+@media (max-width:425px){
+
+    #photo{
+        width:96vw;
+    }
+
+    #content{
+        left:0px;
+    }
+
+    #description{
+        width:96vw;
+        margin:0px;
+        margin-top:10px;
+    }
+
+    .animation{
+        width:96vw;
+        margin-bottom:10px;
+    }
 }

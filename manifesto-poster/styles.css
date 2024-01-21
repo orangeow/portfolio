@@ -66,5 +66,26 @@ a{
 .poster{
     width: 31vw;
     margin-right:20px;
-    border:0.25px dashed #31312e9c;
+    border:0.25px solid #31312e9c;
+}
+
+@media (max-width:425px){
+
+    #content{
+        justify-content:space-evenly;
+        align-items:center;
+        align-content:center;
+    }
+
+    .poster{
+        width:45vw;
+        margin:0px;
+    }
+
+    #description{
+        width:94vw;
+        margin-top:20px;
+        margin-bottom:20px;
+    }
+
 }

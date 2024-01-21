@@ -81,3 +81,34 @@ a{
     margin-left:30px;
     padding:0px;
 }
+
+#spreads-mobile{
+    display:none;
+}
+
+@media (max-width:425px){
+
+    #description{
+        width:96vw;
+        margin:0px;
+        margin-bottom:40px;
+    }
+
+    #content{
+        width:96vw;
+        margin:0px;
+    }
+
+    #highlight-spread{
+        display:none;
+    }
+
+    #spreads{
+        display:none;
+    }
+
+    #spreads-mobile{
+        display:block;
+        width:96vw;
+    }
+}
