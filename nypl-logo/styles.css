@@ -89,6 +89,24 @@ a{
     transition:300ms;
 }
 
+#footer{
+    height: 80px;
+    display:flex;
+    justify-content:space-between;
+    position:relative;
+    bottom:-50px;
+    border-top: 0.5px solid black;
+    margin-top:150px;
+}
+
+.contact{
+    font-family: "azo-sans-web", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    margin:20px;
+}
+
 .project-links:hover{
     transform:translate(-2px, -2px);
 }
@@ -117,7 +135,6 @@ a{
     justify-self: center;
     width:100vw;
     flex-wrap:wrap;
-
 }
 
 #cluster-right{
@@ -164,5 +181,46 @@ a{
         margin-top:0;
     }
 
+    #banner{
+        width:96vw;
+        height:auto;
+    }
+
+    #cluster-right{
+        width: 96vw;
+        height: auto;
+        margin:5px;
+        padding:0px;
+        margin-left:0px;
+
+    }
+
+    #flyers{
+        width: 96vw;
+        height: auto;
+        margin:0px;
+        padding:0px;
+    }
+
+    #social-post{
+        width:46vw;
+        height:auto;
+        margin:5px;
+        padding:0px;
+        margin-left:0px;
+    }
+
+    #totebag{
+        width:46vw;
+        height:auto;
+        margin:5px;
+        padding:0px;
+    }
+
+    #images{
+        width:99vw;
+        margin:0px;
+        justify-content:left;
+    }
 }
 

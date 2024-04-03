@@ -26,6 +26,22 @@ a{
     text-decoration: none;
 }
 
+#footer{
+    height: 80px;
+    display:flex;
+    justify-content:space-between;
+    position:relative;
+    bottom:-50px;
+}
+
+.contact{
+    font-family: "azo-sans-web", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    margin:20px;
+}
+
 #name-logo{
     /* font-family: "azo-sans-web", sans-serif;
     font-weight: 300;
@@ -54,6 +70,73 @@ a{
     top:50px;
     justify-content: end;
     left:-2px;
+    overflow:hidden;
+}
+
+#filters{
+    height:80px;
+    width:35vw;
+    display:flex;
+    position:relative;
+    top:50px;
+    justify-content:space-evenly;
+    align-items:center;
+    /* border-bottom: 0.5px solid black; */
+}
+
+#filter-label{
+    font-family: "azo-sans-web", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.filter-button:hover{
+    cursor: pointer;
+}
+
+.typography{
+    display:flex;
+}
+
+.digital{
+    display:flex;
+}
+
+.product-design{
+    display:flex;
+}
+
+#buttons-box{
+    width:25vw;
+    display:flex;
+    justify-content: space-around;
+}
+
+.filter-button{
+    /* margin-top:20px; */
+    padding:10px;
+    font-family: "azo-sans-web", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    background-color: #e1e1d6;
+    padding-left:10px;
+    padding-right:10px;
+    /* border:5px solid #e1e1d6; */
+    border-radius:10px;
+    transition:300ms;
+    text-align: center;
+}
+
+#digital:hover{
+    filter:invert(1);
+}
+
+#typography:hover{
+    filter:invert(1);
+}
+
+#product-design:hover{
+    filter:invert(1);
 }
 
 .description{
@@ -164,5 +247,29 @@ a{
 
     .other-poster{
         width:48vw;
+    }
+
+    #filters{
+        width:100vw;
+        flex-wrap: wrap;
+        justify-content:flex-start;
+        margin-bottom: 20px;
+        margin-top:20px;
+    }
+
+    .filter-button{
+        padding:7px;
+        margin:10px;
+    }
+
+    #filter-label{
+        margin: 5px;
+        margin-left: 20px;
+    }
+
+    #buttons-box{
+        display:flex;
+        width:100vw;
+        margin-left: 20px;
     }
 }
