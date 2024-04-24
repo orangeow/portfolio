@@ -186,6 +186,10 @@ a{
     padding:0px;
 }
 
+#deodorants{
+    width: 800px;
+}
+
 .hover-link{
     transition:300ms;
 }
