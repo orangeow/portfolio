@@ -276,4 +276,9 @@ a{
         width:100vw;
         margin-left: 20px;
     }
+
+    #deodorants{
+        width:100vw;
+        height:auto;
+    }
 }
