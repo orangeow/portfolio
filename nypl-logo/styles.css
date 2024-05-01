@@ -68,6 +68,22 @@ a{
     margin-top:150px;
 }
 
+#blurb-box{
+    width:100vw;
+    display: flex;
+    justify-content:center;
+    margin-bottom: 80px;
+    margin-top: 80px;
+}
+
+#blurb{
+    width: 50vw;
+    font-family: "azo-sans-web", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size:16pt;
+}
+
 #links-box{
     display:flex;
     flex-wrap:wrap;
