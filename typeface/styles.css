@@ -1,0 +1,274 @@
+body{
+    background-color: #FFFFF2;
+}
+
+#navbar{
+    height:50px;
+    width:100vw;
+    border-bottom: 0.5px solid #5c5c5a;
+    display:flex;
+    position: fixed;
+    left:-1px;
+    background-color: #FFFFF2;
+    z-index: 1000;
+    top:0px;
+    padding-top:10px;
+}
+
+#pages{
+    display:flex;
+    position:absolute;
+    right:20px;
+}
+
+a{
+    color:black;
+    text-decoration: none;
+    font-family: "azo-sans-web", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+#name-logo{
+    /* font-family: "azo-sans-web", sans-serif;
+    font-weight: 300;
+    font-style: normal; */
+    padding:10px;
+    width:120px;
+    height:auto;
+    left: 0px;
+    top:-10px;
+    position: absolute;
+}
+
+#footer{
+    height: 80px;
+    display:flex;
+    justify-content:space-between;
+    position:relative;
+    bottom:-50px;
+    border-top: 0.5px solid black;
+    margin-top:150px;
+}
+
+.contact{
+    font-family: "azo-sans-web", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    margin:20px;
+}
+
+.link{
+    padding:10px;
+    font-family: "azo-sans-web", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+/* content */
+#main-image{
+    width:100%;
+}
+
+#content{
+    left:-1vw;
+    width:101vw;
+    position:relative;
+    display:flex;
+    flex-wrap:wrap;
+    top:50px;
+    /* margin-left:20px;
+    margin-right:20px; */
+    align-items:center;
+    align-content: center;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+
+/* #first-chunk{
+    width:100vw;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    margin-top:75px;
+    margin-bottom:75px;
+} */
+
+#right-content{
+    display:flex;
+    flex-wrap:wrap;
+    width: 60%;
+    justify-content:center;
+    align-items: center;
+    align-content:center;
+}
+
+#description{
+    padding:10px;
+    padding-top:100px; 
+    width: 40%;
+    align-self:center;
+}
+
+#cover{
+    width:50vw;
+    margin-top: 50px;
+}
+
+.project-name{
+    font-family: azo-sans-web, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:20pt;
+    line-height:24pt;
+}
+
+.project-description{
+    font-family: "azo-sans-web", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 14pt;
+    line-height:20pt;
+}
+
+.project-date{
+    font-family: "azo-sans-web", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 14pt;
+    line-height:22pt;
+}
+
+.project-type{
+    font-family: "azo-sans-web", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 14pt;
+    line-height:22pt;
+}
+
+.spread{
+    width:100vw;
+    left: calc(50% - (98vw / 2));
+    align-self:center;
+    margin-top:80px;
+    margin-bottom:80px;
+}
+
+.blurb-box{
+    width:100vw;
+    display: flex;
+    justify-content:center;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+.blurb{
+    width: 50vw;
+    font-family: "azo-sans-web", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size:16pt;
+}
+
+.chunk{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    width:100%;
+    height:auto;
+    margin-top:80px;
+    margin-bottom:80px;
+}
+
+.chunk-text{
+    width:36%;
+    font-family: "azo-sans-web", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size:16pt;
+    padding:4%;
+    align-self:center;
+}
+
+.box-images{
+    width: 50%;
+    height:auto;
+}
+
+.chunk-image{
+    width:45%;
+    margin-top: 50px;
+    align-self:center;
+}
+
+.hanky{
+    width: 45%;
+    align-self:center;
+}
+
+@media (max-width: 768px){
+    .blurb{
+        width:80vw;
+    }
+
+    /* .chunk-image{
+        width:100vw;
+    }
+
+    .chunk-text{
+        width: 80vw;
+    } */
+
+    .hanky{
+        width:95vw;
+    }
+
+    .chunk{
+        width:100vw;
+    }
+}
+
+@media (max-width: 505px){
+    .chunk-text{
+        width:100vw;
+    }
+
+    #description{
+        width:100%;
+    }
+
+    #angle-description{
+        display:none;
+    }
+
+    .blurb{
+        width:100vw;
+        padding:10px;
+    }
+
+    .spread{
+        margin-top:50px;
+        margin-bottom:50px;
+    }
+
+    .chunk{
+        margin-top:20px;
+        margin-bottom:20px;
+    }
+
+    .blurb-box{
+        margin-top:20px;
+        margin-bottom:20px;
+    }
+
+    .chunk-text{
+        padding:1%;
+        margin:0;
+    }
+
+    #first-chunk-image{
+        display:none;
+    }
+}
