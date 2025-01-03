@@ -60,6 +60,37 @@ a{
     align-items:center;
 }
 
+.project-name{
+    font-family: azo-sans-web, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:20px;
+    line-height:24px;
+}
+
+.project-description{
+    font-family: "azo-sans-web", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    line-height:22px;
+}
+
+.project-date{
+    font-family: "azo-sans-web", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    line-height:24px;
+}
+
+.project-type{
+    font-family: "azo-sans-web", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    line-height:24px;
+}
+
 #description{
     width: 33vw;
     font-family: "azo-sans-web", sans-serif;
