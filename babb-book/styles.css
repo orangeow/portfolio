@@ -1,0 +1,333 @@
+body{
+    background-color: #FFFFF2;
+}
+
+#navbar{
+    height:50px;
+    width:100vw;
+    border-bottom: 0.5px solid #5c5c5a;
+    display:flex;
+    position: fixed;
+    left:-1px;
+    background-color: #FFFFF2;
+    z-index: 1000;
+    top:0px;
+    padding-top:10px;
+}
+
+#pages{
+    display:flex;
+    position:absolute;
+    right:20px;
+}
+
+a{
+    color:black;
+    text-decoration: none;
+    font-family: "azo-sans-web", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+#name-logo{
+    /* font-family: "azo-sans-web", sans-serif;
+    font-weight: 300;
+    font-style: normal; */
+    padding:10px;
+    width:120px;
+    height:auto;
+    left: 0px;
+    top:-10px;
+    position: absolute;
+}
+
+#footer{
+    height: 80px;
+    display:flex;
+    justify-content:space-between;
+    position:relative;
+    bottom:-50px;
+    border-top: 0.5px solid black;
+    margin-top:150px;
+}
+
+.contact{
+    font-family: "azo-sans-web", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    margin:20px;
+}
+
+.link{
+    padding:10px;
+    font-family: "azo-sans-web", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+/* content */
+#main-image{
+    width:100%;
+}
+
+#content{
+    left:-1vw;
+    width:101vw;
+    position:relative;
+    display:flex;
+    flex-wrap:wrap;
+    top:50px;
+    /* margin-left:20px;
+    margin-right:20px; */
+    align-items:center;
+    align-content: center;
+    overflow: hidden;
+}
+
+#first-chunk{
+    width:100%;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    margin-top:75px;
+    margin-bottom:75px;
+    margin-left:-1vw;
+}
+
+
+#description{
+    padding:10px;
+    padding-top:100px; 
+    width: 40%;
+}
+
+.chunk-image{
+    width:55%;
+    margin-top: 50px;
+    align-self:center;
+}
+
+.chunk-text{
+    width:36%;
+    padding:10px;
+    font-family: "azo-sans-web", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size:16pt;
+    padding:4%
+}
+
+.project-name{
+    font-family: azo-sans-web, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:20px;
+    line-height:24px;
+}
+
+.project-description{
+    font-family: "azo-sans-web", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    line-height:22px;
+}
+
+.project-date{
+    font-family: "azo-sans-web", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    line-height:24px;
+}
+
+.project-type{
+    font-family: "azo-sans-web", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    line-height:24px;
+}
+
+.spread{
+    top:70px;
+    width:100%;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.blurb-box{
+    width:100vw;
+    display: flex;
+    justify-content:center;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+.blurb{
+    width: 50vw;
+    font-family: "azo-sans-web", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size:16pt;
+}
+
+#second-chunk{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    width:100%;
+    height:auto;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.box-images{
+    width: 50%;
+    height:auto;
+}
+
+.webpage{
+    width: 85vw;
+    align-self: center;
+    margin-bottom: 70px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#applications{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    width:100%;
+    height:fit-content;
+}
+.inner-chunk{
+    width:100%;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    margin-top:80px;
+    margin-bottom:80px;
+}
+
+#tote-bag{
+    width:40vw;
+    align-self:center;
+}
+
+#postcard{
+    width:55vw;
+    filter: drop-shadow(1px 1px 2px rgba(50, 50, 50, 0.495));
+    align-self:center;
+}
+
+#calendar{
+    width:40vw;
+    align-self:center;
+    filter: drop-shadow(1px 1px 2px rgba(50, 50, 50, 0.495));
+}
+
+#insta{
+    width: 30vw;
+    align-self:center;
+    margin:80px;
+}
+
+@media (max-width: 505px){
+
+
+
+}
+
+@media (max-width: 768px){
+
+    #insta{
+        margin-top:30px;
+        margin-bottom:30px;
+        width: 80vw;
+    }
+
+    #postcard{
+        margin-top:30px;
+        margin-bottom:30px;
+        width: 98vw;
+    }
+
+    #calendar{
+        margin-top:30px;
+        margin-bottom:30px;
+        width:90vw;
+        padding-left:30px;
+
+    }
+
+    #tote-bag{
+        margin-top:30px;
+        margin-bottom:30px;
+        width: 90vw;
+    }
+
+    .webpage{
+        width:98vw;
+        margin-bottom:30px;
+    }
+
+    .spread{
+        margin-top:10px;
+        margin-bottom: 10px;
+    }
+
+    .chunk-image{
+        width:98vw;
+        margin-top:30px;
+        margin-bottom:30px;
+    }
+
+    .spread{
+        margin-top:30px;
+        margin-bottom: 30px;
+    }
+
+    #description{
+        width: 90vw;
+    }
+
+    #binding-detail{
+        display: none;
+    }
+
+        
+    .blurb-box{
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+
+    #first-chunk{
+        margin-top: 0;
+        margin-bottom: 50px;
+    }
+
+    .blurb{
+        font-size:14pt;
+        width: 80vw;
+    }
+
+    .chunk-text{
+        font-size:14pt;
+        width: 80vw;
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+
+    #second-chunk{
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+}
