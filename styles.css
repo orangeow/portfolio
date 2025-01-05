@@ -271,19 +271,20 @@ a{
 @media (max-width: 505px){
 
     .clock{
-        width:30vw;
+        width:40vw;
         height:auto;
         padding:0px;
     }
 
     .images{
-        width:100vw;
+        width:102vw;
         height:auto;
         flex-wrap:wrap;
         justify-content:space-evenly;
         margin-top:15px;
         align-items:center;
         align-content:center;
+        overflow: hidden;
     }
 
     .project{
@@ -291,6 +292,8 @@ a{
         height: fit-content;
         align-items: center;
         align-content:center;
+        width:101vw;
+        left: -2vw;
     }
 
     #womens-work{
@@ -314,10 +317,6 @@ a{
         width:99vw;
     }
 
-    .clock{
-        width:40vw;
-    }
-
     #omnibus-image{
         width: 100vw;
         margin: auto;
@@ -329,9 +328,9 @@ a{
     }
     
     #cake-page{
-        width:115vw;
+        width:130vw;
         height:auto;
-        margin:-40px;
+        margin-left:-15vw;
         margin-top: -50px;
     }
     
@@ -340,7 +339,7 @@ a{
     }
     
     #spinster-book{
-        width:100vw;
+        width:105vw;
         height:auto;
         margin-left:-30px;
     }
@@ -372,5 +371,9 @@ a{
     #deodorants{
         width:100vw;
         height:auto;
+    }
+
+    #sampler-image{
+        width: 100vw;
     }
 }
