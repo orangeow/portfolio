@@ -175,20 +175,25 @@ a{
         margin:0px;
     }
 
-    #spreads-mobile{
+    /* #spreads-mobile{
         display:block;
         width:96vw;
-    }
+    } */
 
     .blurb{
         width: 80vw;
     }
 
     #animation{
-        width: 90vw;
+        width: 120vw;
+        margin-left: -9vw;
     }
 
     #cover{
         width: 98vw;
+    }
+
+    .spread{
+        width:200vw;
     }
 }
