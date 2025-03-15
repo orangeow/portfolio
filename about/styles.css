@@ -26,6 +26,10 @@ a{
     text-decoration: none;
 }
 
+ #external-link{
+     text-decoration: underline;
+ }
+
 #footer{
     height: 80px;
     display:flex;
