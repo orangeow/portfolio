@@ -184,7 +184,13 @@ a{
     height:auto;
 }
 
-#stitches{
+/* #stitches{
+    width:100%;
+    padding-top: 100px;
+    padding-bottom: 50px;
+} */
+
+.big-pic{
     width:100%;
     padding-top: 100px;
     padding-bottom: 50px;
@@ -201,7 +207,7 @@ a{
         padding-top: 50px; 
     }
 
-    #stitches{
+    .big-pic{
         width: 100vw;
     }
 
