@@ -1,134 +1,29 @@
-// let filterButtons = document.getElementsByClassName("filter-button");
-// let digitalFilter = document.getElementById("digital");
-// let typographyFilter = document.getElementById("typography");
-// let productFilter = document.getElementById("product-design");
+let bio = document.getElementById("bio");
+let bioContainer = document.getElementById("bio-container");
+let bubbles = document.getElementsByClassName("bubble");
 
-// let digitalProjects = document.getElementsByClassName("digital");
-// let typographyProjects = document.getElementsByClassName("typography");
-// let productProjects = document.getElementsByClassName("product-design");
+let colors = ["#d91e3d", "#FCDE35", "#2a8fc9", "#06AB53"];
 
-// let allProjects = [digitalProjects, typographyProjects, productProjects];
+let randomColor = colors[Math.floor(Math.random() * colors.length)];
 
-// let digitalClicked = false;
-// let typeClicked = false;
-// let productClicked = false;
+    bioContainer.onmousemove = function(f){
+        
+        bubbles[bubbles.length-1].style.backgroundColor = randomColor;
+        bubbles[bubbles.length-1].style.left = f.clientX - 10 + "px";
+        bubbles[bubbles.length-1].style.top = f.clientY - 60 + "px";
 
-// digitalFilter.addEventListener("click", function(){
-//     // if(digitalFilter.style.filter == "invert(0)"){
-//     //     digitalFilter.style.filter = "invert(1)";
-//     // } else if (digitalFilter.style.filter == "invert(1)"){
-//     //     digitalFilter.style.filter = "invert(0)";
-//     // }
-//     productFilter.style.filter = "invert(0)";
-//     typographyFilter.style.filter = "invert(0)";
+    };
 
-//     if (digitalClicked == false){
-//         digitalClicked = true;
-//         digitalFilter.style.filter = "invert(1)";
+    bioContainer.addEventListener("click", function(e){
+        bioContainer.innerHTML += "<div class = 'bubble'></div>";
+        randomColor = colors[Math.floor(Math.random() * 4)];
+        for(i = bubbles.length - 1; i<bubbles.length; i++){
+            bubbles[i].style.left = e.clientX - 10 + "px";
+            bubbles[i].style.top = e.clientY - 60 + "px";
+            bubbles[i].style.backgroundColor = randomColor;
+        }
+    })
 
-//         for(let i=0;i<digitalProjects.length; i++){
-//             digitalProjects[i].style.display = "flex";
-//         }
-//         for(let i = 0; i<typographyProjects.length; i++){
-//             typographyProjects[i].style.display = "none";
-//         }
-//         for(let i = 0; i<productProjects.length; i++){
-//             productProjects[i].style.display = "none";
-//         }
-//     } else if (digitalClicked == true){
-//         digitalClicked = false;
-//         digitalFilter.style.filter = "invert(0)";
 
-//         for(let i=0;i<digitalProjects.length; i++){
-//             digitalProjects[i].style.display = "none";
-//         }
 
-//         for(let i = 0; i<allProjects.length; i++){
-//             for(let j = 0; j<allProjects[i].length; j++){
-//                 if(allProjects[i][j].style.display == "none"){
-//                     allProjects[i][j].style.display = "flex";
-//                 }
-//             }
-//         }
-//     }
-//     // digitalFilter.style.filter = "invert(1)";
-//     // if(typographyFilter.style.filter == "invert(1)"){
-//     //     digitalFilter.style.filter = "invert(0)";
-//     // }
-//     // if(productFilter.style.filter == "invert(1)"){
-//     //     digitalFilter.style.filter = "invert(0)";
-//     // }
 
-//     // digitalFilter.style.filter = "invert(1)";
-    
-// })
-
-// typographyFilter.addEventListener("click", function(){
-//     digitalFilter.style.filter = "invert(0)";
-//     productFilter.style.filter = "invert(0)";
-
-//     if (typeClicked == false){
-//         typeClicked = true;
-//         typographyFilter.style.filter = "invert(1)";
-
-//         for(let i=0;i<typographyProjects.length; i++){
-//             typographyProjects[i].style.display = "flex";
-//         }
-//         for(let i = 0; i<digitalProjects.length; i++){
-//              digitalProjects[i].style.display = "none";
-//         }
-//         for(let i = 0; i<productProjects.length; i++){
-//             productProjects[i].style.display = "none";
-//         }
-//     } else if (typeClicked == true){
-//         typeClicked = false;
-//         typographyFilter.style.filter = "invert(0)";
-
-//         for(let i=0;i<typographyProjects.length; i++){
-//             typographyProjects[i].style.display = "none";
-//         }
-
-//         for(let i = 0; i<allProjects.length; i++){
-//             for(let j = 0; j<allProjects[i].length; j++){
-//                 if(allProjects[i][j].style.display == "none"){
-//                     allProjects[i][j].style.display = "flex";
-//                 }
-//             }
-//         }
-//     }
-// })
-
-// productFilter.addEventListener("click", function(){
-//     typographyFilter.style.filter = "invert(0)";
-//     digitalFilter.style.filter = "invert(0)";
-
-//     if (productClicked == false){
-//         productClicked = true;
-//         productFilter.style.filter = "invert(1)";
-
-//         for(let i=0;i<productProjects.length; i++){
-//             productProjects[i].style.display = "flex";
-//         }
-//         for(let i = 0; i<digitalProjects.length; i++){
-//              digitalProjects[i].style.display = "none";
-//         }
-//         for(let i = 0; i<typographyProjects.length; i++){
-//             typographyProjects[i].style.display = "none";
-//         }
-//     } else if (productClicked == true){
-//         productClicked = false;
-//         productFilter.style.filter = "invert(0)";
-
-//         for(let i=0;i<productProjects.length; i++){
-//             productProjects[i].style.display = "none";
-//         }
-
-//         for(let i = 0; i<allProjects.length; i++){
-//             for(let j = 0; j<allProjects[i].length; j++){
-//                 if(allProjects[i][j].style.display == "none"){
-//                     allProjects[i][j].style.display = "flex";
-//                 }
-//             }
-//         }
-//     }
-// })

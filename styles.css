@@ -56,6 +56,7 @@ a{
     width:100vw;
     top:50px;
     border-bottom: 0.5px solid black;
+    overflow:hidden;
 }
 
 #bio{
@@ -69,15 +70,14 @@ a{
     cursor:default;
 }
 
-/* .bubble{
-    transition:1s;
-    width:10px;
-    height: 10px;
+.bubble{
+    width:50px;
+    height: 50px;
     position:absolute;
     border-radius: 50%;
-    background-color: blue;
     mix-blend-mode: multiply;
-} */
+    opacity: 80%;
+}
 
 .link{
     padding:10px;
@@ -97,84 +97,6 @@ a{
     left:-2px;
     overflow:hidden;
 }
-
-/* #filters{
-    height:80px;
-    width:fit-content;
-    display:flex;
-    flex-wrap:warp;
-    position:relative;
-    top:50px;
-    justify-content:space-evenly;
-    align-items:center;
-} */
-/* 
-#filter-label{
-    font-family: "azo-sans-web", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-}
-
-#intro{
-    font-family: "azo-sans-web", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    width:50vw;
-    margin:10px;
-} */
-
-/* .filter-button:hover{
-    cursor: pointer;
-}
-
-.typography{
-    display:flex;
-}
-
-.digital{
-    display:flex;
-}
-
-.product-design{
-    display:flex;
-} */
-
-/* #buttons-box{
-    width:25vw;
-    display:flex;
-    justify-content: space-around;
-    margin-left: 2vw;
-    margin-top:20px;
-    margin-bottom:30px;
-    position:relative;
-    top:50px;
-} */
-
-/* .filter-button{
-    padding:10px;
-    font-family: "azo-sans-web", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    background-color: #e1e1d6;
-    padding-left:10px;
-    padding-right:10px;
-    border-radius:10px;
-    transition:300ms;
-    text-align: center;
-    margin:5px;
-} */
-
-/* #digital:hover{
-    filter:invert(1);
-}
-
-#typography:hover{
-    filter:invert(1);
-}
-
-#product-design:hover{
-    filter:invert(1);
-} */
 
 .description{
     width: 35vw;
@@ -232,12 +154,12 @@ a{
 }
 
 #omnibus-image{
-    width: 55vw;
+    width: 65vw;
     margin: auto;
 }
 
 #babb-image{
-    width: 57vw;
+    width: 68vw;
     margin-left: -5vw;
     margin-top: 20px;
 }
@@ -264,7 +186,7 @@ a{
 }
 
 #sampler-image{
-    width: 60vw;
+    width: 50vw;
 }
 
 .hover-link{
