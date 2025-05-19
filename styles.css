@@ -1,5 +1,6 @@
 body{
     background-color: #FFFFF2;
+    overflow-x: hidden;
 }
 
 #navbar{
@@ -54,20 +55,21 @@ a{
 #bio-container{
     position:relative;
     width:100vw;
-    top:50px;
+    top:25px;
     border-bottom: 0.5px solid black;
     overflow:hidden;
+    cursor:pointer;
 }
 
 #bio{
     font-family: "azo-sans-web", sans-serif;
     font-weight: 300;
     font-style: normal;
-    font-size: 21px;
-    line-height: 29px;
+    font-size: 40px;
+    line-height: 48px;
     width: calc(65vw - 50px);
     padding: 25px;
-    cursor:default;
+    cursor:pointer;
 }
 
 .bubble{
@@ -111,30 +113,31 @@ a{
     font-weight: 400;
     font-style: normal;
     font-size:20px;
-    line-height:24px;
+    line-height:28px;
 }
 
 .project-description{
     font-family: "azo-sans-web", sans-serif;
     font-weight: 300;
     font-style: normal;
-    font-size: 16px;
-    line-height:22px;
+    font-size: 20px;
+    line-height:26px;
 }
 
 .project-date{
     font-family: "azo-sans-web", sans-serif;
     font-weight: 300;
     font-style: normal;
-    font-size: 16px;
-    line-height:24px;
+    font-size: 20px;
+    line-height:28px;
 }
 
 .project-type{
     font-family: "azo-sans-web", sans-serif;
     font-weight: 300;
     font-style: italic;
-    line-height:24px;
+    font-size: 20px;
+    line-height:28px;
 }
 
 .images{
@@ -198,7 +201,7 @@ a{
 }
 
 
-@media (min-width: 506px) and (max-width: 1350px) {
+@media (min-width: 771px) and (max-width: 1350px) {
     .description{
         width: 35vw;
     }
@@ -220,7 +223,7 @@ a{
 
   }
 
-@media (max-width: 505px){
+@media (max-width: 770px){
 
     .clock{
         width:40vw;
@@ -229,7 +232,7 @@ a{
     }
 
     .images{
-        width:102vw;
+        width:100vw;
         height:auto;
         flex-wrap:wrap;
         justify-content:space-evenly;
@@ -284,10 +287,8 @@ a{
     }
     
     #cake-page{
-        width:130vw;
+        width:100vw;
         height:auto;
-        margin-left:-15vw;
-        margin-top: -50px;
     }
     
     #deodorants{
@@ -332,4 +333,11 @@ a{
     #sampler-image{
         width: 100vw;
     }
+}
+
+@media (max-width: 425px){
+    #bio{
+           font-size: 30px;
+           line-height: 36px;
+        }
 }
