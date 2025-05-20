@@ -170,8 +170,6 @@ a{
 #cake-page{
     width:65vw;
     height:auto;
-    margin:-40px;
-    margin-top: -50px;
 }
 
 #deodorants{
@@ -210,10 +208,6 @@ a{
         width: 65vw;
         height:auto;
     }
-/* 
-    img{
-        width: 100%;
-    } */
 
     .clock{
         width:30vw;
@@ -300,24 +294,6 @@ a{
         height:auto;
         margin-left:-30px;
     }
-/* 
-    #filters{
-        width:100vw;
-        flex-wrap: wrap;
-        justify-content:flex-start;
-        margin-bottom: 20px;
-        margin-top:20px;
-    }
-
-    .filter-button{
-        padding:7px;
-        margin:10px;
-    }
-
-    #filter-label{
-        margin: 5px;
-        margin-left: 20px;
-    } */
 
     #buttons-box{
         display:flex;
