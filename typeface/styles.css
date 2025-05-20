@@ -120,32 +120,32 @@ a{
     font-family: azo-sans-web, sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size:20pt;
-    line-height:24pt;
+    font-size:20px;
+    line-height:28px;
 }
 
 .project-description{
     font-family: "azo-sans-web", sans-serif;
     font-weight: 300;
     font-style: normal;
-    font-size: 14pt;
-    line-height:20pt;
+    font-size: 20px;
+    line-height:26px;
 }
 
 .project-date{
     font-family: "azo-sans-web", sans-serif;
     font-weight: 300;
     font-style: normal;
-    font-size: 14pt;
-    line-height:22pt;
+    font-size: 20px;
+    line-height:28px;
 }
 
 .project-type{
     font-family: "azo-sans-web", sans-serif;
     font-weight: 300;
     font-style: italic;
-    font-size: 14pt;
-    line-height:22pt;
+    font-size: 20px;
+    line-height:28px;
 }
 
 .spread{
@@ -169,7 +169,8 @@ a{
     font-family: "azo-sans-web", sans-serif;
     font-weight: 300;
     font-style: normal;
-    font-size:16pt;
+    font-size:20px;
+    line-height: 26px;
 }
 
 .chunk{
@@ -187,7 +188,8 @@ a{
     font-family: "azo-sans-web", sans-serif;
     font-weight: 300;
     font-style: normal;
-    font-size:16pt;
+    font-size:20px;
+    line-height:26px;
     padding:4%;
     align-self:center;
 }
