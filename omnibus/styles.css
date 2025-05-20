@@ -67,30 +67,31 @@ a{
     font-weight: 400;
     font-style: normal;
     font-size:20px;
-    line-height:24px;
+    line-height:28px;
 }
 
 .project-description{
     font-family: "azo-sans-web", sans-serif;
     font-weight: 300;
     font-style: normal;
-    font-size: 16px;
-    line-height:22px;
+    font-size: 20px;
+    line-height:26px;
 }
 
 .project-date{
     font-family: "azo-sans-web", sans-serif;
     font-weight: 300;
     font-style: normal;
-    font-size: 16px;
-    line-height:24px;
+    font-size: 20px;
+    line-height:28px;
 }
 
 .project-type{
     font-family: "azo-sans-web", sans-serif;
     font-weight: 300;
     font-style: italic;
-    line-height:24px;
+    font-size: 20px;
+    line-height:28px;
 }
 
 #content{
@@ -161,6 +162,7 @@ a{
     font-family: "azo-sans-web", sans-serif;
     font-weight: 300;
     font-style: italic;
+    font-size:20px;
     background-color: #e1e1d6;
     padding-left:5px;
     padding-right:5px;
@@ -259,44 +261,13 @@ a{
     margin-top:150px;
 }
 
-/* .project-images{
-    margin:10px;
-} */
-
-/* #stats{
-    width:68vw;
-    margin-left:0px;
-} */
-
-
-
-/* #search-screen{
-    margin-left:0px;
-}
-
-#spacer{
-    height:60px;
-} */
-
 a{
     transition:100ms;
 }
 
-/* #search-screen-mobile{
-    display:none;
-}
-
-#app-preview-mobile{
-    display:none;
-} */
-/* a:hover{
-    filter: drop-shadow(#31312eae 3px 3px 1px);
-} */
-
-@media (max-width:425px){
+@media (max-width:770px){
 
     #description{
-        font-size: 18px;
         width:90vw;
     }
 
@@ -304,33 +275,30 @@ a{
         padding:0px;
     }
 
+    #right-content{
+        width: 90vw;
+    }
+
     #left-content{
         width:100vw;
     }
 
     #links-box{
-        width: 90vw;
+        width: 60vw;
     }
 
     .project-links{
         margin:5px;
-        font-size: 16px;
+        font-size: 20px;
     }
 
     #preview-screen{
-    display:none;
+        display:none;
     }
 
     #search-screen{
         display:none;
     }
-
-    /* .project-images{
-        width:98vw;
-        height:auto;
-        margin:0px;
-        padding:0px;
-    } */
 
     #journey-map{
         width:90%;
@@ -356,9 +324,9 @@ a{
         font-family: "azo-sans-web", sans-serif;
         font-weight: 300;
         font-style: normal;
-        font-size:16px;
+        font-size:20px;
+        line-height: 26px;
     }
-
 
     #graphic-elements{
         width:90%;
@@ -394,4 +362,10 @@ a{
         margin-top:50px;
     }
 
+}
+
+@media (max-width:425px){
+    #links-box{
+        width: 90vw;
+    }
 }
