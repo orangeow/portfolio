@@ -65,30 +65,31 @@ a{
     font-weight: 400;
     font-style: normal;
     font-size:20px;
-    line-height:24px;
+    line-height:28px;
 }
 
 .project-description{
     font-family: "azo-sans-web", sans-serif;
     font-weight: 300;
     font-style: normal;
-    font-size: 16px;
-    line-height:22px;
+    font-size: 20px;
+    line-height:26px;
 }
 
 .project-date{
     font-family: "azo-sans-web", sans-serif;
     font-weight: 300;
     font-style: normal;
-    font-size: 16px;
-    line-height:24px;
+    font-size: 20px;
+    line-height:28px;
 }
 
 .project-type{
     font-family: "azo-sans-web", sans-serif;
     font-weight: 300;
     font-style: italic;
-    line-height:24px;
+    font-size: 20px;
+    line-height:28px;
 }
 
 #description{
@@ -193,7 +194,7 @@ a{
 }
 
 
-@media (max-width:425px){
+@media (max-width:770px){
 
     #content{
         justify-content:space-evenly;
@@ -202,10 +203,11 @@ a{
     }
 
     #description{
-        width:94vw;
+        width:85vw;
         margin-top:30px;
         margin-bottom:20px;
         margin-left:1vw;
+        align-self: center;
     }
 
     #main-image{
