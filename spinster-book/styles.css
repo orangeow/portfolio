@@ -86,7 +86,7 @@ a{
 }
 
 #first-chunk{
-    width:100vw;
+    width:100%;
     display:flex;
     flex-wrap:wrap;
     justify-content:space-around;
@@ -94,24 +94,24 @@ a{
     margin-bottom:75px;
 }
 
-#right-content{
+/* #right-content{
     display:flex;
     flex-wrap:wrap;
     width: 60%;
     justify-content:center;
     align-items: center;
     align-content:center;
-}
+} */
 
 #description{
-    padding:10px;
+    padding:50px;
     padding-top:100px; 
     width: 40%;
 }
 
 #cover{
-    width:50vw;
-    margin-top: 50px;
+    width:calc(60% - 100px);
+    /* margin-top: 50px; */
     align-self: center;
 }
 
@@ -148,9 +148,8 @@ a{
 }
 
 #spread{
-    top:70px;
-    width:98vw;
-    left: calc(50% - (98vw / 2));
+    top:150px;
+    width:100%;
     align-self: center;
 }
 
