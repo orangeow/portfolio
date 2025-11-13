@@ -184,6 +184,12 @@ a{
     margin-left:-30px;
 }
 
+#conference-banner{
+    width:70vw;
+    height:auto;
+    margin-left:-30px;
+}
+
 #nypl{
     width: 65vw;
 }
@@ -292,6 +298,12 @@ a{
     }
     
     #spinster-book{
+        width:105vw;
+        height:auto;
+        margin-left:-30px;
+    }
+
+    #conference-banner{
         width:105vw;
         height:auto;
         margin-left:-30px;
