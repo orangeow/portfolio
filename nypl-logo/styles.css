@@ -1,5 +1,6 @@
 body{
     background-color: #FFFFF2;
+    overflow-x: hidden;
 }
 
 #navbar{
@@ -29,12 +30,19 @@ a{
     font-style: normal;
 }
 
-#name-logo{
-    /* font-family: "azo-sans-web", sans-serif;
+#name-text{
+    color: #d91e3d;
+    font-family: "azo-sans-web", sans-serif;
     font-weight: 300;
-    font-style: normal; */
-    padding:10px;
-    width:120px;
+    font-style: normal;
+    font-size: 24px;
+    align-self: center;
+}
+
+#name-logo{
+    padding-top:25px;
+    padding-left:15px;
+    width:250px;
     height:auto;
     left: 0px;
     top:-10px;
@@ -64,30 +72,31 @@ a{
     font-weight: 400;
     font-style: normal;
     font-size:20px;
-    line-height:24px;
+    line-height:28px;
 }
 
 .project-description{
     font-family: "azo-sans-web", sans-serif;
     font-weight: 300;
     font-style: normal;
-    font-size: 16px;
-    line-height:22px;
+    font-size: 20px;
+    line-height:26px;
 }
 
 .project-date{
     font-family: "azo-sans-web", sans-serif;
     font-weight: 300;
     font-style: normal;
-    font-size: 16px;
-    line-height:24px;
+    font-size: 20px;
+    line-height:28px;
 }
 
 .project-type{
     font-family: "azo-sans-web", sans-serif;
     font-weight: 300;
     font-style: italic;
-    line-height:24px;
+    font-size: 20px;
+    line-height:28px;
 }
 
 #description{
@@ -109,7 +118,8 @@ a{
     font-family: "azo-sans-web", sans-serif;
     font-weight: 300;
     font-style: normal;
-    font-size:16pt;
+    font-size: 20px;
+    line-height: 26px;
 }
 
 #links-box{
@@ -118,6 +128,8 @@ a{
     justify-content: space-between;
     top:20px;
     position:relative;
+    font-size: 20px;
+
 }
 
 .project-links{
@@ -158,6 +170,8 @@ a{
 #main-logo{
     width:60vw;
     margin-top:100px;
+    height: auto;
+    align-self:center;
 }
 
 #departments{
@@ -206,18 +220,27 @@ a{
 }
 
 
-@media (max-width:425px){
+@media (max-width:770px){
 
     #content{
         justify-content:space-evenly;
         align-items:center;
         align-content:center;
+        width:100vw;
     }
 
     #description{
-        width:94vw;
+        width:85vw;
         margin-top:20px;
         margin-bottom:20px;
+        align-self:center;
+    }
+
+    #blurb{
+        width:85vw;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        align-self: center;
     }
 
     #main-logo{
@@ -226,12 +249,12 @@ a{
     }
 
     #banner{
-        width:96vw;
+        width:100%;
         height:auto;
     }
 
     #cluster-right{
-        width: 96vw;
+        width: 100vw;
         height: auto;
         margin:5px;
         padding:0px;
@@ -240,7 +263,7 @@ a{
     }
 
     #flyers{
-        width: 96vw;
+        width: 101%;
         height: auto;
         margin:0px;
         padding:0px;
