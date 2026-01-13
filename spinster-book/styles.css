@@ -29,12 +29,19 @@ a{
     font-style: normal;
 }
 
-#name-logo{
-    /* font-family: "azo-sans-web", sans-serif;
+#name-text{
+    color: #d91e3d;
+    font-family: "azo-sans-web", sans-serif;
     font-weight: 300;
-    font-style: normal; */
-    padding:10px;
-    width:120px;
+    font-style: normal;
+    font-size: 24px;
+    align-self: center;
+}
+
+#name-logo{
+    padding-top:25px;
+    padding-left:15px;
+    width:250px;
     height:auto;
     left: 0px;
     top:-10px;
