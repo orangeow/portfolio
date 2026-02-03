@@ -100,6 +100,7 @@ a{
     justify-content:space-around;
     margin-top:75px;
     margin-bottom:75px;
+
 }
 
 /* #right-content{
@@ -113,7 +114,6 @@ a{
 
 #description{
     padding:50px;
-    padding-top:100px; 
     width: 40%;
 }
 
