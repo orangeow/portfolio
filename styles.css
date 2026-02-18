@@ -20,6 +20,7 @@ body{
     display:flex;
     position:absolute;
     right:20px;
+    align-items: flex-end;
 }
 
 a{
@@ -98,7 +99,9 @@ a{
     font-family: "azo-sans-web", sans-serif;
     font-weight: 300;
     font-style: normal;
+    padding-left: 30px;
 }
+
 
 .project{
     border-bottom: 0.5px solid black;
