@@ -19,6 +19,15 @@ body{
     display:flex;
     position:absolute;
     right:20px;
+    align-items: flex-end;
+}
+
+.link{
+    padding:10px;
+    font-family: "azo-sans-web", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    padding-left: 30px;
 }
 
 a{
@@ -48,12 +57,6 @@ a{
     position: absolute;
 }
 
-.link{
-    padding:10px;
-    font-family: "azo-sans-web", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-}
 /* content */
 
 #main-image{
